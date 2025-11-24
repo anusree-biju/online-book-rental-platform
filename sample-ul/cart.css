@@ -1,0 +1,103 @@
+/*
+Template Name: Shop On
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+/*********************cart****************/
+#cart{
+ padding-top:40px;
+ padding-bottom:40px;
+ }
+.cart_1{
+background:#f7941d;
+padding-top:15px;
+padding-bottom:15px; 
+ }
+.cart_2i .input-group{
+width:71%; 
+ }
+.cart_2{
+background: #fbf2e8;
+border-bottom:1px solid #fff;
+padding-top:30px;
+padding-bottom:30px;
+ }
+.cart_3i .form-control{
+box-shadow:none;
+border-color:#eee;
+border-radius:0;
+height:48px;
+float:left;
+width:70%; 
+margin-right:10px;
+font-size:18px;
+ }
+.cart_3{
+margin-top:30px; 
+ }
+.cart_3i1 .button{
+display:block;
+text-align:center; 
+ }
+/*********************cart_end****************/
+
+@media screen and (max-width : 767px){
+#cart{
+text-align:center;  
+ }
+.cart_1i {
+ margin-top:10px;
+ margin-bottom:10px;
+ }
+.cart_2i .input-group{
+width:45%;
+margin-left:auto;
+margin-right:auto;
+}
+.cart_2i {
+margin-top:10px; 
+ }
+.cart_3i .form-control{
+width:100%; 
+float:none;
+margin-bottom:10px;
+ }
+.cart_3i1 {
+text-align:left; 
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.cart_1i h4{
+ font-size:20px;
+ }
+.cart_2i img{
+ min-height:150px;
+ }
+.cart_2i .input-group{
+width:100%; 
+ }
+.cart_2i .input-group .btn{
+padding:6px 6px;
+ }
+.cart_3i .form-control{
+width:50%; 
+ }
+ }
+@media (min-width:992px) and (max-width:1200px) {
+.cart_2i .input-group{
+width:90%; 
+ }
+.cart_3i .form-control{
+width:60%; 
+ }
+ }
+@media (min-width:1201px) and (max-width:1350px) {
+
+ }
+
+
+
+

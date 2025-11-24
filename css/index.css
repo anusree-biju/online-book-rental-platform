@@ -1,0 +1,294 @@
+/*
+Template Name: Shop On
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+/*********************center_home****************/
+.center_home{
+background:#fbf2e8;
+ }
+.center_homem{
+ padding-top:30%;
+ }
+/*********************center_home_end****************/
+
+/*********************collection****************/
+#collection{
+padding-top:50px;
+padding-bottom:50px; 
+ }
+.collect_1l{
+background:#fbf2e8;
+ }
+.collect_1ll{
+padding:30px 10px; 
+ }
+/*********************collection_end****************/
+
+/*********************product_list****************/
+#product_list{
+padding-top:40px;
+padding-bottom:40px; 
+background:#fbf2e8;
+ }
+.product_list hr{
+border-color:#f7941d;
+width:5%;
+border-width:2px;
+margin-bottom:30px;
+ }
+.workout_page_1_left .nav-tabs{
+ border:none;
+ width:57%;
+ margin-left:auto;
+ margin-right:auto;
+ margin-top:0;
+  }
+.workout_page_1_left .nav-tabs li a{
+background:#fff!important;
+color:#000!important;
+font-size:16px;
+border:none!important;
+margin-right:5px;
+margin-left:5px;
+border-radius:3px;
+padding:5px 15px;
+  }
+.workout_page_1_left .nav-tabs li a:hover{
+   background:#f7941d!important;
+   color:#fff!important;
+  }
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+  background:#f7941d!important;
+  color:#fff!important;
+  }
+  
+.home_inner{
+margin-top:30px; 
+ }
+.workout_1_in2 ul li{
+display:inline-block;
+padding-left:8px;
+padding-right:8px;
+font-size:16px; 
+ }
+.workout_1_in3 .bg  {
+    background: #f7941d;
+    display: inline-block;
+    padding: 5px 15px 7px 15px;
+	color:#fff;
+	border-radius:20px;
+}
+.workout_1_in3 .bg1  {
+    background:#FF0000;
+    display: inline-block;
+    padding: 5px 15px 7px 15px;
+	color:#fff;
+	border-radius:20px;
+}
+.workout_1_in3 .bg2  {
+    background:#6699FF;
+    display: inline-block;
+    padding: 5px 15px 7px 15px;
+	color:#fff;
+	border-radius:20px;
+}
+.workout_1_inner{
+position:relative; 
+ }
+.workout_1_in2{
+position:absolute;
+display:none;
+width:100%;
+background:#fff;
+padding:10px;
+ }
+.workout_1_in3{
+position:absolute;
+top:20px;
+right:20px; 
+ }
+.workout_1_inner:hover .workout_1_in2{
+display:block;
+bottom:68px;
+ }
+/*********************product_list_end****************/
+
+/*********************trending****************/
+#trending{
+padding-top:40px;
+padding-bottom:40px; 
+ }
+.trending_1i1 hr {
+    border-color: #f7941d;
+    width: 15%;
+    border-width: 2px;
+	margin-left:0;
+}
+.trending_1i{
+border:1px solid #eee;
+padding:10px; 
+ }
+.trending_1il2 span i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #f7941d;
+    border-radius: 50%;
+    font-size: 14px;
+    color: #fff;
+}
+.trending_1il2 span i:hover {
+background:#fff;
+color:#000;
+}
+.trending_1ir  h6 {
+    background: #f7941d;
+    display: inline-block;
+    padding: 5px 20px 7px 20px;
+    color: #fff;
+    border-radius: 20px;
+}
+.trending_1ir{
+padding-top:20%; 
+ }
+.trending_1il2 {
+ display:none;
+ position:absolute;
+ }
+.trending_1il{
+position:relative; 
+ }
+.trending_1il:hover .trending_1il2{
+display:block;
+width:100%;
+top:40%;
+ }
+.trending_1{
+margin-top: 30px; 
+ }
+/*********************trending_end****************/
+
+/*********************blog_home****************/
+#blog_home{
+ padding-top:40px;
+ padding-bottom:40px;
+ background:#fbf2e8;
+ }
+.blog_home_1i1{
+ padding:40px 20px;
+ background:#fff;
+ }
+.blog_home_1i:hover .blog_home_1i1{
+ box-shadow: 0 0 10px rgba(0,0,0,0.6);
+ }
+/*********************blog_home_end****************/
+
+/*********************shipping****************/
+#shipping{
+padding-top:60px;
+padding-bottom:50px; 
+ }
+.shipping_1i span i{
+font-size:50px;
+float:left;
+margin-right:20px;
+ }
+/*********************shipping_end****************/
+
+
+@media screen and (max-width : 767px){
+.center_home {
+ text-align:center;
+ padding-top:15px;
+ }
+.center_homem {
+padding-top:15px;
+padding-bottom:15px;  
+ }
+#collection{
+text-align:center; 
+ }
+.collect_1l {
+margin-bottom:15px; 
+ }
+.workout_page_1_left .nav-tabs{
+width:100%; 
+ }
+.workout_page_1_left .nav-tabs li{
+margin-bottom:8px;
+ }
+.workout_1_in2 .pull-right{
+float:none!important;
+ }
+#product_list{
+text-align:center; 
+ }
+.workout_1_in2  ul{
+margin-top:10px!important;
+ }
+.workout_1_inner {
+margin-bottom:15px; 
+ }
+#trending{
+text-align:center;  
+ }
+.trending_1i1 hr{
+margin-left:auto; 
+ }
+.trending_1ir{
+padding-top:15px;
+padding-bottom:10px; 
+ }
+.trending_1i {
+margin-bottom:10px;  
+ }
+.blog_home_1i1{
+margin-bottom:10px; 
+ } 
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.center_homem h1{
+font-size:30px; 
+ }
+.center_homem {
+    padding-top: 15px;
+}
+.collect_1lr img{
+min-height:220px; 
+ }
+.workout_page_1_left .nav-tabs{
+width:90%; 
+ }
+.workout_1_in1 img{
+min-height:360px; 
+ }
+.workout_1_in2 ul li{
+ padding-left:0;
+ padding-right:0;
+ }
+.trending_1il1 img{
+min-height:190px; 
+ }
+ }
+@media (min-width:992px) and (max-width:1200px) {
+.center_homem {
+    padding-top: 30px;
+}
+.collect_1lr img{
+min-height:220px; 
+ }
+.workout_page_1_left .nav-tabs{
+width:70%; 
+ }
+ }
+@media (min-width:1201px) and (max-width:1350px) {
+
+ }
+
+
+
+
